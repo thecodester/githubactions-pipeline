@@ -2,10 +2,11 @@ name: pipeline
 
 on: [push]
 
+env:
+  ARTIFACT_NAME: 'DanielArtifact'
+
 jobs:
   run-app:
-    env:
-      ARTIFACT_NAME: 'DanielArtifact'
     runs-on: ubuntu-latest
     steps:
       - name: Check out repo
