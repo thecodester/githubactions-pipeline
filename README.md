@@ -1,1 +1,1 @@
-# githubactions-pipeline
+# githubactions-pipeline [![pipeline](https://github.com/thecodester/githubactions-pipeline/actions/workflows/pipeline.yml/badge.svg)](https://github.com/thecodester/githubactions-pipeline/actions/workflows/pipeline.yml)
