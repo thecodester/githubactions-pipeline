@@ -11,7 +11,7 @@ jobs:
       - name: Check out repo
         uses: actions/checkout@v2
       - name: Run app
-        run: python hello.py
+        run: python src/hello.py
   make-artifact:
     needs: run-app
     runs-on: ubuntu-latest
@@ -22,4 +22,4 @@ jobs:
         uses: actions/upload-artifact@v1.0.0
         with:
             name: ${{ env.ARTIFACT_NAME }}
-            path: src/hello.py
+            path: ./src/hello.py
